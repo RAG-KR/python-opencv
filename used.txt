@@ -1,0 +1,20 @@
+pip install face_recognition
+pip had to be upgraded
+2 times python 10 and 11 were installed
+uninstalled one of them
+dlib and cmake had to be installed
+nad in this order
+cmake
+dlib
+face-recognition
+and then dlib i got error that cant build wheel something and all
+using yt and chat gpt i solved after trying 10000 times
+mainly what i did is
+downloaded some file from github that had binary for dlib
+tried to run that in cmd
+using pip install<path to file.whl>
+when this didnt work
+i just double clicked on the excecutable file in the zip folder that i downleaded n 
+then when i tried in pycharm the packages got installed
+git hub link for that =  https://github.com/davisking/dlib/releases
+2. remember that cv2.Video(0) is default camera and (1) is external camera
